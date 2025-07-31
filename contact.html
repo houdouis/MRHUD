@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AfriqueNoCode | Devis Gratuit & Consultation</title>
+    <meta name="description" content="Contactez AfriqueNoCode pour votre projet d'automatisation. Devis gratuit, consultation personnalisée. WhatsApp, email, formulaire de contact.">
+    <meta name="keywords" content="Contact AfriqueNoCode, Devis automatisation, Consultation NoCode, WhatsApp contact">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AfriqueNoCode</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">À propos</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">Contactez-Nous</h1>
+                <p class="slogan">Votre projet d'automatisation commence ici</p>
+                <p class="fade-in">Partagez-nous votre vision, nous vous proposons la solution technique parfaite. Consultation gratuite et devis personnalisé sous 24h.</p>
+            </div>
+        </section>
+
+        <!-- Moyens de Contact -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Choisissez Votre Moyen de Contact Préféré</h2>
+                <div class="grid grid-3">
+                    <div class="card fade-in">
+                        <div class="card-icon">📱</div>
+                        <h3>WhatsApp Direct</h3>
+                        <p>Le moyen le plus rapide pour discuter de votre projet. Réponse garantie sous 2h en journée.</p>
+                        <div style="margin-top: 20px;">
+                            <a href="https://wa.me/22901444803?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20services%20d'automatisation" class="btn btn-whatsapp" target="_blank">
+                                Ouvrir WhatsApp
+                            </a>
+                        </div>
+                        <p style="margin-top: 10px; font-size: 0.9rem; color: var(--text-light);">+229 01 44 48 03 63</p>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon">✉️</div>
+                        <h3>Email Professionnel</h3>
+                        <p>Pour les demandes détaillées et l'envoi de documents. Réponse sous 24h maximum.</p>
+                        <div style="margin-top: 20px;">
+                            <a href="mailto:successlove980@gmail.com?subject=Demande de devis AfriqueNoCode&body=Bonjour,%0D%0A%0D%0AJe souhaite obtenir plus d'informations sur vos services d'automatisation.%0D%0A%0D%0AMon projet concerne :" class="btn btn-secondary">
+                                Envoyer un Email
+                            </a>
+                        </div>
+                        <p style="margin-top: 10px; font-size: 0.9rem; color: var(--text-light);">successlove980@gmail.com</p>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon">📝</div>
+                        <h3>Formulaire Détaillé</h3>
+                        <p>Décrivez votre projet en détail via notre formulaire sécurisé. Traitement automatisé et suivi personnalisé.</p>
+                        <div style="margin-top: 20px;">
+                            <a href="#formulaire" class="btn btn-primary">
+                                Remplir le Formulaire
+                            </a>
+                        </div>
+                        <p style="margin-top: 10px; font-size: 0.9rem; color: var(--text-light);">Réponse sous 24h</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulaire de Contact -->
+        <section class="section bg-light" id="formulaire">
+            <div class="container">
+                <h2 class="section-title">Formulaire de Contact</h2>
+                <div class="form-container fade-in">
+                    <form 
+                        action="https://n8n-render-lamachine-4v7w.onrender.com/webhook-test/c6d5ae2c-5386-4b63-84bf-8a71dc7e0c49" 
+                        method="POST"
+                        id="contactForm"
+                    >
+                        <div class="form-group">
+                            <label for="nom">Nom complet *</label>
+                            <input type="text" id="nom" name="nom" placeholder="Votre nom et prénom" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="entreprise">Entreprise / Organisation</label>
+                            <input type="text" id="entreprise" name="entreprise" placeholder="Nom de votre entreprise (optionnel)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Adresse email *</label>
+                            <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="+229 XX XX XX XX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="secteur">Secteur d'activité</label>
+                            <select id="secteur" name="secteur">
+                                <option value="">Sélectionnez votre secteur</option>
+                                <option value="commerce">Commerce / E-commerce</option>
+                                <option value="services">Services</option>
+                                <option value="industrie">Industrie</option>
+                                <option value="agriculture">Agriculture</option>
+                                <option value="education">Éducation</option>
+                                <option value="sante">Santé</option>
+                                <option value="finance">Finance / Fintech</option>
+                                <option value="ong">ONG / Association</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="services">Services qui vous intéressent</label>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 10px;">
+                                <label style="display: flex; align-items: center; font-weight: normal; cursor: pointer;">
+                                    <input type="checkbox" name="services" value="bot-whatsapp" style="margin-right: 8px;">
+                                    Bot WhatsApp
+                                </label>
+                                <label style="display: flex; align-items: center; font-weight: normal; cursor: pointer;">
+                                    <input type="checkbox" name="services" value="crm-automatise" style="margin-right: 8px;">
+                                    CRM Automatisé
+                                </label>
+                                <label style="display: flex; align-items: center; font-weight: normal; cursor: pointer;">
+                                    <input type="checkbox" name="services" value="paiements" style="margin-right: 8px;">
+                                    Intégration Paiements
+                                </label>
+                                <label style="display: flex; align-items: center; font-weight: normal; cursor: pointer;">
+                                    <input type="checkbox" name="services" value="email-sms" style="margin-right: 8px;">
+                                    Email/SMS Automation
+                                </label>
+                                <label style="display: flex; align-items: center; font-weight: normal; cursor: pointer;">
+                                    <input type="checkbox" name="services" value="tableau-bord" style="margin-right: 8px;">
+                                    Tableaux de Bord
+                                </label>
+                                <label style="display: flex; align-items: center; font-weight: normal; cursor: pointer;">
+                                    <input type="checkbox" name="services" value="ia-chatgpt" style="margin-right: 8px;">
+                                    IA & ChatGPT
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget approximatif</label>
+                            <select id="budget" name="budget">
+                                <option value="">Sélectionnez votre budget</option>
+                                <option value="moins-50k">Moins de 50,000 FCFA</option>
+                                <option value="50k-100k">50,000 - 100,000 FCFA</option>
+                                <option value="100k-200k">100,000 - 200,000 FCFA</option>
+                                <option value="200k-500k">200,000 - 500,000 FCFA</option>
+                                <option value="plus-500k">Plus de 500,000 FCFA</option>
+                                <option value="a-definir">À définir ensemble</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="urgence">Délai souhaité</label>
+                            <select id="urgence" name="urgence">
+                                <option value="">Sélectionnez un délai</option>
+                                <option value="urgent">Urgent (moins d'1 semaine)</option>
+                                <option value="rapide">Rapide (1-2 semaines)</option>
+                                <option value="standard">Standard (2-4 semaines)</option>
+                                <option value="flexible">Flexible (plus d'1 mois)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Décrivez votre projet *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                placeholder="Expliquez-nous en détail votre besoin :
+- Quel problème souhaitez-vous résoudre ?
+- Quels sont vos processus actuels ?
+- Quel résultat attendez-vous ?
+- Avez-vous des contraintes particulières ?
+
+Plus vous serez précis, mieux nous pourrons vous aider !" 
+                                required
+                                rows="8"
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label style="display: flex; align-items: center; font-weight: normal; cursor: pointer;">
+                                <input type="checkbox" name="newsletter" value="oui" style="margin-right: 8px;">
+                                J'accepte de recevoir des informations sur les nouveautés d'AfriqueNoCode
+                            </label>
+                        </div>
+
+                        <div class="form-group" style="text-align: center;">
+                            <button type="submit" class="btn btn-primary" style="font-size: 1.1rem; padding: 18px 40px;">
+                                Envoyer ma demande
+                            </button>
+                            <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-light);">
+                                ⚡ Réponse garantie sous 24h • 🔒 Vos données sont sécurisées
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informations Pratiques -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Informations Pratiques</h2>
+                <div class="grid grid-2">
+                    <div class="card fade-in">
+                        <div class="card-icon">🕐</div>
+                        <h3>Horaires de Disponibilité</h3>
+                        <ul style="text-align: left; color: var(--text-light);">
+                            <li><strong>Lundi - Vendredi :</strong> 8h00 - 18h00 (GMT+1)</li>
+                            <li><strong>Samedi :</strong> 9h00 - 14h00 (GMT+1)</li>
+                            <li><strong>Dimanche :</strong> Urgences uniquement</li>
+                            <li><strong>WhatsApp :</strong> Réponse rapide 7j/7</li>
+                            <li><strong>Email :</strong> Traitement sous 24h</li>
+                        </ul>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon">📍</div>
+                        <h3>Notre Localisation</h3>
+                        <p style="color: var(--text-light); margin-bottom: 15px;">
+                            <strong>AfriqueNoCode</strong><br>
+                            Djougou, République du Bénin<br>
+                            Afrique de l'Ouest
+                        </p>
+                        <p style="color: var(--text-light); font-size: 0.9rem;">
+                            🌍 <strong>Zone d'intervention :</strong> Afrique de l'Ouest prioritaire, autres régions africaines sur demande<br>
+                            🗣️ <strong>Langues :</strong> Français, Anglais<br>
+                            💻 <strong>Travail à distance :</strong> 100% des projets
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Contact -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Questions Fréquentes</h2>
+                <div class="grid grid-2">
+                    <div class="card fade-in">
+                        <h3 class="text-green">⚡ Combien de temps pour une réponse ?</h3>
+                        <p>
+                            <strong>WhatsApp :</strong> 2h en moyenne en journée<br>
+                            <strong>Email :</strong> Maximum 24h<br>
+                            <strong>Formulaire :</strong> Traitement automatique + réponse personnalisée sous 24h
+                        </p>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="text-green">💰 Le devis est-il vraiment gratuit ?</h3>
+                        <p>
+                            Oui, complètement gratuit et sans engagement. Nous analysons votre besoin et vous proposons une solution détaillée avec tarification transparente.
+                        </p>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="text-green">🌍 Travaillez-vous avec toute l'Afrique ?</h3>
+                        <p>
+                            Principalement l'Afrique de l'Ouest, mais nous acceptons des projets dans toute l'Afrique. Le travail se fait 100% à distance.
+                        </p>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="text-green">🔒 Mes données sont-elles sécurisées ?</h3>
+                        <p>
+                            Absolument. Toutes vos informations sont traitées de manière confidentielle et sécurisée. Nous respectons la confidentialité totale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="section">
+            <div class="container text-center">
+                <h2 class="section-title">Prêt à Automatiser Votre Entreprise ?</h2>
+                <p style="font-size: 1.2rem; color: var(--text-light); margin-bottom: 40px;">
+                    N'attendez plus ! Chaque jour sans automatisation, c'est du temps et de l'argent perdus. Contactez-nous maintenant pour transformer votre entreprise.
+                </p>
+                <div>
+                    <a href="https://wa.me/22901444803?text=Bonjour,%20je%20veux%20automatiser%20mon%20entreprise%20avec%20AfriqueNoCode" class="btn btn-whatsapp" target="_blank">
+                        📱 WhatsApp Immédiat
+                    </a>
+                    <a href="#formulaire" class="btn btn-primary">
+                        📝 Formulaire Détaillé
+                    </a>
+                </div>
+                <p style="margin-top: 30px; color: var(--text-light);">
+                    <strong>Nos autres canaux :</strong><br>
+                    📧 <a href="mailto:successlove980@gmail.com" style="color: var(--primary-green);">successlove980@gmail.com</a> • 
+                    🌐 <a href="https://trendcather229.mystrikingly.com/" target="_blank" style="color: var(--primary-green);">TrendCatcher</a> • 
+                    📺 <a href="https://youtube.com/@trendcatcher229" target="_blank" style="color: var(--primary-green);">YouTube</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AfriqueNoCode</h3>
+                    <p>Branche spécialisée de TrendCatcher dans l'automatisation IA et NoCode pour l'Afrique.</p>
+                    <p>📍 Djougou, Bénin</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <a href="mailto:successlove980@gmail.com">✉️ successlove980@gmail.com</a>
+                    <a href="https://wa.me/22901444803">📱 +229 01 44 48 03 63</a>
+                    <a href="https://trendcather229.mystrikingly.com/" target="_blank">🌐 TrendCatcher</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="services.html">Bots WhatsApp/Telegram</a>
+                    <a href="services.html">CRM Automatisé</a>
+                    <a href="services.html">Intégration Paiements</a>
+                    <a href="services.html">Workflows IA</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AfriqueNoCode - Une initiative TrendCatcher. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+
+        // Gestion du formulaire
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Afficher un message de chargement
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Envoi en cours...';
+            submitBtn.disabled = true;
+            
+            // Créer les données du formulaire
+            const formData = new FormData(this);
+            
+            // Collecter les services sélectionnés
+            const services = [];
+            this.querySelectorAll('input[name="services"]:checked').forEach(cb => {
+                services.push(cb.value);
+            });
+            formData.set('services', services.join(', '));
+            
+            // Envoyer les données
+            fetch(this.action, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Redirection vers la page de remerciement
+                    window.location.href = 'merci.html';
+                } else {
+                    throw new Error('Erreur réseau');
+                }
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+                alert('Une erreur est survenue. Veuillez réessayer ou nous contacter directement via WhatsApp.');
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            });
+        });
+
+        // Animation au scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            observer.observe(el);
+        });
+
+        // Smooth scroll pour les liens internes
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
